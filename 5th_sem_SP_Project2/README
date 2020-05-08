@@ -1,0 +1,18 @@
+	
+1. Project name:
+	SIC/XE project 2
+2. Project info:
+	add assemble, symbol command
+	assemble : read .asm file and create .obj and .lst file
+	           does not create any file if .asm file doesn't exist for contains error
+
+	symbol : print symbol table
+	         does not print anything if there isn't previous assemble record	 
+3. Contribute:
+	Single project of 20161617 Lee Byung Heon
+4. Code Status:
+	all done for project 2 assignment
+5. How:
+	decompress 20161617_proj1.tar file
+	compile 20161617.c program by make, run by ./20161617.out
+	remove by make clean
