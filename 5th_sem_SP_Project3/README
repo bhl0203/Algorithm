@@ -1,0 +1,13 @@
+	
+1. Project name:
+	SIC/XE project 3
+2. Project info:
+  realization of linker/loader
+3. Contribute:
+	Single project of 20161617 Lee Byung Heon
+4. Code Status:
+	Just begun
+5. How:
+	compile 20161617.c program by make, run by ./20161617.out
+	remove by make clean
+
