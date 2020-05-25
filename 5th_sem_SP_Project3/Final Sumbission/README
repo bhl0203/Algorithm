@@ -1,0 +1,16 @@
+	
+1. Project name:
+	SIC/XE project 3
+2. Project info:
+	add final linker, loader functions to original project file
+	link given object files and upload to memory
+	add, save, clear breakpoints
+3. Contribute:
+	Single project of 20161617 Lee Byung Heon
+4. Code Status:
+	all done for project 3 assignment
+5. How:
+	decompress 20161617_proj3.tar file
+	compile 20161617.c program by make, run by ./20161617.out
+	remove by make clean
+
