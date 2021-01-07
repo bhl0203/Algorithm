@@ -31,7 +31,7 @@ int main()
         }
         dfs(0, 0);
         puts("");
-
+ 
         if (n == 0) break;
     }
     return 0;
