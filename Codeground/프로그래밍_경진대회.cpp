@@ -1,10 +1,7 @@
 /*
 You should use the statndard input/output
-
 in order to receive a score properly.
-
 Do not use file input and output
-
 Please be very careful.
 */
 
@@ -38,7 +35,7 @@ int main(int argc, char** argv)
 	cin >> T;
 	for (test_case = 0; test_case < T; test_case++)
 	{
-		
+
 		Answer = 1;//기본적으로 1명은 존재
 		answer_flag = true;
 		cin >> N;
@@ -68,13 +65,13 @@ int main(int argc, char** argv)
 
 			comp[N - 1] += 1;
 			for (int i = N - 2; i >= 0; i--) {
-				if (comp[i] + N - i >= comp[i + 1]) {
-					comp[i] += N - i;
+				if (comp[i] + N >= comp[i + 1]) {
 					Answer++;
 				}
-				else {
-					comp[i] = comp[i + 1];
+				if (comp[i] + N - i >= comp[i + 1]) {
+					comp[i] += N - i;
 				}
+				else comp[i] = comp[i + 1];
 			}
 
 			/*
